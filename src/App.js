@@ -1,10 +1,19 @@
 import './App.css';
-import Navigation from './components/Navigation';
+import { HashRouter, Route, Switch } from "react-router-dom";
+import { Navigation, About } from "./components";
 
 function App() {
   return (
     <div className="App">
-      <Navigation />
+      <HashRouter>
+          <header>
+              <Navigation />
+          </header>
+
+          <Switch>
+              <Route path="/about" exact component={() => <About />} />
+          </Switch>
+      </HashRouter>
     </div>
   );
 }
