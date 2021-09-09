@@ -1,6 +1,6 @@
 import './App.css';
 import { HashRouter, Route, Switch } from "react-router-dom";
-import { Navigation, About } from "./components";
+import { Navigation, About, Activities, Contact, Routes } from "./components";
 
 function App() {
   return (
@@ -12,6 +12,9 @@ function App() {
 
           <Switch>
               <Route path="/about" exact component={() => <About />} />
+              <Route path="/routes" exact component={() => <Routes />} />
+              <Route path="/activities" exact component={() => <Activities />} />
+              <Route path="/contact" exact compoennt={() => <Contact />} />
           </Switch>
       </HashRouter>
     </div>
