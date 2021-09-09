@@ -1,16 +1,13 @@
 import React, {Component} from 'react';
 
-class About extends Component {
+class Routes extends Component {
     render() {
         return (
             <div className="content">
-                <div>
-                    <h1>Qui sommes nous ?</h1>
-                </div>
-
+                <h1>Nos parcours</h1>
             </div>
         );
     }
 }
 
-export default About;
+export default Routes;
