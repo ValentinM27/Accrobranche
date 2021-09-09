@@ -3,8 +3,11 @@ import React, {Component} from 'react';
 class About extends Component {
     render() {
         return (
-            <div>
-                <h1>HELLO</h1>
+            <div className="content">
+                <div>
+                    <h1>Qui sommes nous ?</h1>
+                </div>
+
             </div>
         );
     }

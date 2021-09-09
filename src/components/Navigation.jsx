@@ -1,12 +1,16 @@
 import React from "react";
 import {Link, withRouter} from "react-router-dom";
 
+import logo_accrobatie from "../images/logo-accrobatie.png";
+
 function Navigation (props) {
     return (
         <div className="navigation">
 
             <div className="navigation-logo">
-                <h1>Accrobranche</h1>
+                <Link to="/">
+                    <img className="navigation-logo-detail" src={logo_accrobatie} alt="Logo Accro'batie" />
+                </Link>
             </div>
 
             <nav className="navbar">
@@ -16,19 +20,19 @@ function Navigation (props) {
                             Qui sommes-nous ?
                         </Link>
                     </li>
-
+                    |
                     <li className="navigation-list-element">
                         <Link to="/routes">
                             Nos parcours
                         </Link>
                     </li>
-
+                    |
                     <li className="navigation-list-element">
                         <Link to="/activities">
                             Nos services et activités
                         </Link>
                     </li>
-
+                    |
                     <li className="navigation-list-element">
                         <Link to="/contact">
                             Contact et reservation

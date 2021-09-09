@@ -3,8 +3,8 @@ import React, {Component} from 'react';
 class Activities extends Component {
     render() {
         return (
-            <div>
-                
+            <div className="content">
+                <h1>Nos Services et Activités</h1>
             </div>
         );
     }
