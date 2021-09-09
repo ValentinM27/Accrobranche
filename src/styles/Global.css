@@ -123,6 +123,10 @@ header {
     font-size: 3em;
 }
 
+.navigation-button-container {
+    display: none;
+}
+
 /* Navbar pour écran supérieur à 700px */
 @media (min-width: 700px) {
     .navbar {
@@ -131,10 +135,62 @@ header {
     }
 
     .navigation-list {
-        padding-top: 25px;
+        padding-top: 23px;
     }
 
     .navigation-list-element {
         margin: auto 15px auto 15px;
+    }
+}
+
+/* Navbar pour écran inférieur à 700px */
+@media (max-width: 700px) {
+
+    .navigation {
+        width: 95%;
+    }
+    .navbar {
+        display: block;
+    }
+
+    .navigation-button-container {
+        display: block;
+        position: absolute;
+        right: 10px;
+        top: 30px;
+    }
+
+    .navigation-button {
+        outline: none;
+        height: 40px;
+        width: 130px;
+        font-size: 20px;
+        color: #6b5b4f;
+        background: transparent;
+        border: 1px solid #6b5b4f;
+        border-radius: 40px;
+        cursor: pointer;
+        letter-spacing: 1px;
+
+        transition: all ease 0.75s;
+    }
+
+    .navigation-button:hover {
+        background-color: #6b5b4f;
+        color: #EDEFF1;
+    }
+
+    .navigation-list {
+        position: relative;
+        padding-right: 5px;
+        padding-top: 80px;
+        flex-direction: column;
+    }
+}
+
+/* Navbar pour écran de moins de 320px */
+@media (max-width: 320px) {
+    .navigation-list {
+        padding-top: 0px;
     }
 }
