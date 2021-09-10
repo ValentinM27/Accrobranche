@@ -66,11 +66,10 @@ function Navigation (props) {
                         </li>
                     </ul>
                 )}
-                <div className="navigation-button-container">
-                    <button onClick={toggleNavSmallScreen} className="navigation-button">MENU</button>
-                </div>
             </nav>
-
+            <div className="navigation-button-container">
+                <button onClick={toggleNavSmallScreen} className="navigation-button">MENU</button>
+            </div>
         </div>
     )
 }
