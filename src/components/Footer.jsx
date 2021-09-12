@@ -1,13 +1,24 @@
-import React, {Component} from 'react';
+import React from 'react';
+import { Link, withRouter } from "react-router-dom";
 
-class Footer extends Component {
-    render() {
-        return (
-            <div>
-                <h1>Hello</h1>
-            </div>
-        );
-    }
+function Footer(props) {
+    return (
+        <div className="footer">
+            <ul className="footer-list">
+                <li className="footer-list-element">
+                    <Link to="/confidential" >
+                        Politique de confidentialité
+                    </Link>
+                </li>
+
+                <li className="footer-list-element">
+                    <Link to="/legal" >
+                        Mentions légales
+                    </Link>
+                </li>
+            </ul>
+        </div>
+    );
 }
 
-export default Footer;
+export default withRouter(Footer);

@@ -1,7 +1,11 @@
 /* Styles généraux */
+.body {
+    margin: 0;
+    font-family: 'Roboto', serif;
+}
 .content {
     width: 90%;
-    margin: 50px auto;
+    margin: 0 auto;
     animation-name: BottomToTop;
     animation-duration: 2s;
 }
@@ -223,4 +227,74 @@ header {
     @keyframes lineup {100% {height: 100px}}
 }
 
+/*Gestion de Footer.jsx */
+.footer {
+    background: #8ab576;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.footer-list {
+    margin-right: 144px;
+}
+
+.footer-list-element {
+    display: inline-block;
+}
+
+.footer-list-element a{
+    text-decoration: none;
+    color: #6b5b4f;
+    margin-left: 30px;
+}
+
+/* Gestion de footer.jsx pour écran inf à 560px */
+@media (max-width: 560px) {
+
+    .footer {
+        text-align: unset;
+    }
+
+    .footer-list {
+        margin-right: auto;
+    }
+
+    .footer-list-element {
+        display: flex;
+    }
+
+    .footer-list-element a {
+        margin: 2px auto 2px 0;
+        font-size: .6em;
+    }
+}
+
+/* Gestion de Home.jsx */
+.home {
+    background: url("../images/background-main.jpeg") no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 0;
+    height: 820px;
+}
+
+.home::before {
+    content: "";
+    width: 100%;
+    height: 820px;
+    background: rgba(0, 0, 0, 0.71);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.home-detail {
+    text-align: center;
+    color: white;
+    top: 0;
+}
 
