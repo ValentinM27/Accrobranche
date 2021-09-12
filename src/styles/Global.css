@@ -1,8 +1,8 @@
 /* Styles généraux */
 .body {
-    margin: 0;
     font-family: 'Roboto', serif;
 }
+
 .content {
     width: 90%;
     margin: 0 auto;
@@ -151,16 +151,12 @@ header {
 @media (max-width: 700px) {
 
     .navigation {
-        width: 95%;
+        width: 90%;
     }
 
     .navbar {
         width: 90%;
         display: block;
-    }
-
-    .navigation-list {
-        width: 100%;
     }
 
     .navigation-button-container {
@@ -193,7 +189,7 @@ header {
     .navigation-list {
         font-size: 19px;
         flex-direction: column;
-        width: 100%;
+        width: 90%;
         height: 100px;
     }
 
@@ -207,7 +203,7 @@ header {
         width: 3px;
         height: 0;
         background: #6b5b4f;
-        margin-right: 32px;
+        margin-right: 5px;
         margin-left: 10px;
         position: absolute;
         animation: lineup 3s forwards;
@@ -230,8 +226,7 @@ header {
 /*Gestion de Footer.jsx */
 .footer {
     background: #8ab576;
-    position: fixed;
-    left: 0;
+    position: absolute;
     bottom: 0;
     width: 100%;
     text-align: center;
@@ -273,28 +268,5 @@ header {
 }
 
 /* Gestion de Home.jsx */
-.home {
-    background: url("../images/background-main.jpeg") no-repeat;
-    background-size: cover;
-    position: relative;
-    z-index: 0;
-    height: 820px;
-}
 
-.home::before {
-    content: "";
-    width: 100%;
-    height: 820px;
-    background: rgba(0, 0, 0, 0.71);
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-}
-
-.home-detail {
-    text-align: center;
-    color: white;
-    top: 0;
-}
 
