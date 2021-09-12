@@ -4,8 +4,13 @@ class Home extends Component {
     render() {
         return (
             <div className="home">
-                <h1>Accrobranche</h1>
-                <h2>Lorem Ipsum</h2>
+                <div className="home-detail">
+                    <h1>Accro'batie</h1>
+                    <h2>Avec nous, vous serez accros à la hauteur !</h2>
+                    <p>
+                        En savoir plus sur nous
+                    </p>
+                </div>
             </div>
         );
     }

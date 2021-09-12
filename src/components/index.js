@@ -4,3 +4,6 @@ export { default as About } from "./About";
 export { default as Activities } from "./Activities";
 export { default as Contact } from "./Contact";
 export { default as Routes } from "./Routes";
+export { default as Footer } from "./Footer";
+export { default as Confidential } from "./Confidential";
+export { default as Legal } from "./Legal";
