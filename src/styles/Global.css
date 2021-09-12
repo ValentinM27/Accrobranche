@@ -254,6 +254,12 @@ header {
     text-decoration: none;
     color: #6b5b4f;
     margin-left: 30px;
+    transition: ease-in-out .5s;
+}
+
+.footer-list-element a:hover {
+    color: #ffe3cf;
+    transition: ease-in-out .5s;
 }
 
 /* Gestion de footer.jsx pour écran inf à 560px */
@@ -281,8 +287,7 @@ header {
 
 .home {
     margin-top: 2.5%;
-    position: relative;
-    vertical-align: center;
+    align-items: center;
     border-radius: 20px;
     margin-left: auto;
     margin-right: auto;
@@ -316,10 +321,28 @@ header {
     margin-top: 250px;
 }
 
+.home-detail a {
+    padding: 2px 8px 2px 8px;
+    border-radius: 15px;
+    border: 1px solid #8ab576;
+    background: #8ab576;
+    text-decoration: none;
+    color: black;
+    transition: ease-in-out .5s;
+}
+
+.home-detail a:hover {
+    font-weight: bold;
+    background: #1F1B24;
+    color: #8ab576;
+    transition: ease-in-out .5s;
+}
+
+
 @media (max-height: 850px) {
     .home {
-        margin-top: 20%;
-        margin-bottom: 25%;
+        margin-top: 10%;
+        margin-bottom: min(100px, 25%);
         height: 400px;
     }
 
@@ -336,5 +359,7 @@ header {
         font-size: 1.2em;
     }
 }
+
+
 
 
