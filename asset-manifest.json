@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Accrobranche/static/css/main.21744212.chunk.css",
-    "main.js": "/Accrobranche/static/js/main.81e7774b.chunk.js",
-    "main.js.map": "/Accrobranche/static/js/main.81e7774b.chunk.js.map",
+    "main.js": "/Accrobranche/static/js/main.4d725dee.chunk.js",
+    "main.js.map": "/Accrobranche/static/js/main.4d725dee.chunk.js.map",
     "runtime-main.js": "/Accrobranche/static/js/runtime-main.b7afb534.js",
     "runtime-main.js.map": "/Accrobranche/static/js/runtime-main.b7afb534.js.map",
     "static/js/2.b90bcd70.chunk.js": "/Accrobranche/static/js/2.b90bcd70.chunk.js",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.b7afb534.js",
     "static/js/2.b90bcd70.chunk.js",
     "static/css/main.21744212.chunk.css",
-    "static/js/main.81e7774b.chunk.js"
+    "static/js/main.4d725dee.chunk.js"
   ]
 }
