@@ -49,7 +49,7 @@ class Routes extends Component {
                     <div className="red-route">
                         <div className="route-detail">
                             <h1>Godlike</h1>
-                            <h2>T'es pas huamin toi, t'es différent ! 🔥</h2>
+                            <h2>T'es pas humain toi, t'es différent ! 🔥</h2>
                         </div>
                     </div>
                     {/* Fin de l'élément */}
