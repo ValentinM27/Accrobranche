@@ -13,7 +13,7 @@ class Routes extends Component {
                     <div className="yellow-route">
                         <div className="route-detail">
                             <h1>Noob</h1>
-                            <h2>Parcours adpaté à tous, parce qu'il faut bien commencer par quelques part 😉</h2>
+                            <h2>Parcours adpaté à tous, parce qu'il faut bien commencer par quelque part 😉</h2>
                         </div>
                     </div>
                     {/* Fin de l'élément */}
