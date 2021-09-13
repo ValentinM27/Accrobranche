@@ -465,6 +465,23 @@ header {
     margin-top: 200px;
 }
 
+.route-detail a {
+    padding: 2px 8px 2px 8px;
+    border-radius: 15px;
+    border: 1px solid #8ab576;
+    background: #8ab576;
+    text-decoration: none;
+    color: black;
+    transition: ease-in-out .5s;
+}
+
+.route-detail a:hover {
+    font-weight: bold;
+    background: #1F1B24;
+    color: #8ab576;
+    transition: ease-in-out .5s;
+}
+
 @media (max-height: 850px) {
     .yellow-route, .green-route, .blue-route, .purple-route, .red-route {
         width: 75%;
