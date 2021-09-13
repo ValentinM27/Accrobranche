@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Accrobranche/static/css/main.21744212.chunk.css",
+    "main.css": "/Accrobranche/static/css/main.c1b4c113.chunk.css",
     "main.js": "/Accrobranche/static/js/main.9cb1ea38.chunk.js",
     "main.js.map": "/Accrobranche/static/js/main.9cb1ea38.chunk.js.map",
     "runtime-main.js": "/Accrobranche/static/js/runtime-main.b7afb534.js",
@@ -10,15 +10,15 @@
     "static/js/3.4e819a60.chunk.js": "/Accrobranche/static/js/3.4e819a60.chunk.js",
     "static/js/3.4e819a60.chunk.js.map": "/Accrobranche/static/js/3.4e819a60.chunk.js.map",
     "index.html": "/Accrobranche/index.html",
-    "static/css/main.21744212.chunk.css.map": "/Accrobranche/static/css/main.21744212.chunk.css.map",
+    "static/css/main.c1b4c113.chunk.css.map": "/Accrobranche/static/css/main.c1b4c113.chunk.css.map",
     "static/js/2.b90bcd70.chunk.js.LICENSE.txt": "/Accrobranche/static/js/2.b90bcd70.chunk.js.LICENSE.txt",
-    "static/media/Global.css": "/Accrobranche/static/media/yellow-course.42233e2b.jpg",
+    "static/media/Global.css": "/Accrobranche/static/media/yellow-course.0959c75c.jpg",
     "static/media/logo-accrobatie.6f25c6f9.png": "/Accrobranche/static/media/logo-accrobatie.6f25c6f9.png"
   },
   "entrypoints": [
     "static/js/runtime-main.b7afb534.js",
     "static/js/2.b90bcd70.chunk.js",
-    "static/css/main.21744212.chunk.css",
+    "static/css/main.c1b4c113.chunk.css",
     "static/js/main.9cb1ea38.chunk.js"
   ]
 }
