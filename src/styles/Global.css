@@ -465,7 +465,7 @@ header {
     margin-top: 200px;
 }
 
-.route-detail a {
+.route-detail a, .bottom-page-link a{
     padding: 2px 8px 2px 8px;
     border-radius: 15px;
     border: 1px solid #8ab576;
@@ -475,11 +475,16 @@ header {
     transition: ease-in-out .5s;
 }
 
-.route-detail a:hover {
+.route-detail a:hover, .bottom-page-link a:hover {
     font-weight: bold;
     background: #1F1B24;
     color: #8ab576;
     transition: ease-in-out .5s;
+}
+
+.bottom-page-link {
+    text-align: center;
+    margin-bottom: 8%;
 }
 
 @media (max-height: 850px) {
@@ -501,6 +506,10 @@ header {
 
     .route-detail h2 {
         font-size: 1.2em;
+    }
+
+    .bottom-page-link {
+        margin-bottom: 115px;
     }
 }
 
