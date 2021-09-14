@@ -360,6 +360,156 @@ header {
     }
 }
 
+/* gestion de Routes.jsx */
+
+/* Parcours Jaune */
+.yellow-route {
+    margin-top: 2%;
+    align-items: center;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 600px;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../images/yellow-course.jpg") no-repeat center;
+}
+
+.yellow-route:hover {
+    background: linear-gradient(rgba(232, 232, 219, 0.5),rgba(232, 232, 219, 0.5)), url("../images/yellow-course.jpg") no-repeat center;
+}
+
+/* Parcours Vert */
+.green-route {
+    margin-top: 2%;
+    align-items: center;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 600px;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../images/green-course.jpg") no-repeat center;
+}
+
+.green-route:hover {
+    background: linear-gradient(rgba(232, 232, 219, 0.5),rgba(232, 232, 219, 0.5)), url("../images/green-course.jpg") no-repeat center;
+}
+
+/* Parcours bleu */
+.blue-route {
+    margin-top: 2%;
+    align-items: center;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 600px;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../images/blue-course.jpg") no-repeat center;
+}
+
+.blue-route:hover {
+    background: linear-gradient(rgba(232, 232, 219, 0.5),rgba(232, 232, 219, 0.5)), url("../images/blue-course.jpg") no-repeat center;
+}
+
+/* Parcours Violet */
+.purple-route {
+    margin-top: 2%;
+    align-items: center;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 600px;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../images/purple-course.jpg") no-repeat center;
+}
+
+.purple-route:hover {
+    background: linear-gradient(rgba(232, 232, 219, 0.5),rgba(232, 232, 219, 0.5)), url("../images/purple-course.jpg") no-repeat center;
+}
+
+/* Parcours Rouge */
+.red-route {
+    margin-top: 2%;
+    align-items: center;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 600px;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../images/red-course.jpg") no-repeat center;
+}
+
+.red-route:hover {
+    background: linear-gradient(rgba(232, 232, 219, 0.5),rgba(232, 232, 219, 0.5)), url("../images/red-course.jpg") no-repeat center;
+}
 
 
+/* Parcours style général */
+.route-detail {
+    height: 700px;
+    border: 1px solid transparent;
+    width: 70%;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    position: relative;
+    transition: ease-in-out .5s;
+}
+
+.route-detail:hover {
+    color: black;
+    transition: ease-in-out .5s;
+}
+
+.route-detail h1 {
+    font-size: 4em;
+    margin-top: 200px;
+}
+
+.route-detail a, .bottom-page-link a{
+    padding: 2px 8px 2px 8px;
+    border-radius: 15px;
+    border: 1px solid #8ab576;
+    background: #8ab576;
+    text-decoration: none;
+    color: black;
+    transition: ease-in-out .5s;
+}
+
+.route-detail a:hover, .bottom-page-link a:hover {
+    font-weight: bold;
+    background: #1F1B24;
+    color: #8ab576;
+    transition: ease-in-out .5s;
+}
+
+.bottom-page-link {
+    text-align: center;
+    margin-bottom: 8%;
+}
+
+@media (max-height: 850px) {
+    .yellow-route, .green-route, .blue-route, .purple-route, .red-route {
+        width: 75%;
+        margin-top: 10%;
+        margin-bottom: min(100px, 25%);
+        height: 400px;
+    }
+
+    .route-detail {
+        height: 400px;
+    }
+
+    .route-detail h1 {
+        margin-top: 110px;
+        font-size: 2.7em;
+    }
+
+    .route-detail h2 {
+        font-size: 1.2em;
+    }
+
+    .bottom-page-link {
+        margin-bottom: 115px;
+    }
+}
 
