@@ -39,8 +39,11 @@ class Contact extends Component {
         return (
             <div className="content">
                 <h1>Demande de renseignements et réservation</h1>
-                <button onClick={() => this.hideComponent("Reservation")}>Reservation</button>
-                <button onClick={() => this.hideComponent("Info")}>Demandes d'informations</button>
+                <div className="contact-buttons">
+                    <button onClick={() => this.hideComponent("Reservation")}>Reservation</button>
+                    <button onClick={() => this.hideComponent("Info")}>Demandes d'informations</button>
+                </div>
+
                 <div className="contact">
                     {showReservation && <Reservation/> }
                     {showInfo && <Informations />}

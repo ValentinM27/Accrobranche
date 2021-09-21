@@ -9,6 +9,10 @@ class Reservation extends Component {
                 <fieldset>
                     <form action="mailto:Valentin.Marguerie@iut-dijon.u-bourgogne.fr" encType="text/plain" method="post" className="contact-form">
 
+                        <h2>
+                            Je souhaite réserver !
+                        </h2>
+
                         <div className="contact-form-info">
                             <select id="contact-form-gender">
                                 <option value="Male">M</option>
@@ -22,7 +26,7 @@ class Reservation extends Component {
 
                         <div className="contact-form-date">
                             <label htmlFor="Age">Votre âge</label>
-                            <NumericInput name="Age" min={7} max={130} value={30} />
+                            <NumericInput name="Age" min={7} max={99} value={30} />
 
                             <div>
                                 <label htmlFor="start">Date de début:</label>

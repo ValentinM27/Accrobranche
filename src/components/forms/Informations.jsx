@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import NumericInput from "react-numeric-input";
 import {Link} from "react-router-dom";
 
 class Informations extends Component {
@@ -9,7 +8,13 @@ class Informations extends Component {
                 <fieldset>
                     <form action="mailto:Valentin.Marguerie@iut-dijon.u-bourgogne.fr" encType="text/plain" method="post" className="contact-form">
 
+                        <h1>
+                            Je souhaite des informations !
+                        </h1>
+
                         <div className="contact-form-info">
+                            <input type="mail"  placeholder="Votre mail" name="mail" id="mail" required/>
+
                             <select id="contact-form-gender">
                                 <option value="Male">M</option>
                                 <option value="Female">Mme</option>
@@ -20,13 +25,7 @@ class Informations extends Component {
                             <input type="text" placeholder="Nom" name="Lastname" id="lastname" required/>
                         </div>
 
-                        <div className="contact-form-date">
-                            <label htmlFor="Age">Votre âge</label>
-                            <NumericInput name="Age" min={7} max={130} value={30} />
-                        </div>
-
-
-                        <textarea placeholder="Informations supplémentaires (Nombre de personnes, enfants, parcours choisi ... )" name="informations"
+                        <textarea placeholder="Nature de votre demande (Prix, nombre de personnes maximums, parcours enfants, parcours ...)" name="informations"
                                   id="contact-form-comment" cols="40" aria-autocomplete="list" aria-haspopup="true"/>
 
                         <div className="contact-form-confidential-container">
