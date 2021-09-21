@@ -513,3 +513,148 @@ header {
     }
 }
 
+/* Gestion de Contact.jsx */
+.contact {
+    text-align: center;
+}
+
+.contact-form {
+    padding: 0 4% 0 4%;
+}
+
+.contact-form-submit {
+    width: 200px;
+    background-color: #8ab576;
+    color: #1F1B24;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 1px solid #1F1B24;
+    border-radius: 20px;
+}
+
+.contact-form-submit:hover {
+    background-color: #1F1B24;
+    color: #8ab576;
+    cursor: pointer;
+    transition: background-color .5s;
+}
+
+
+input[type=text], select, input[type=mail] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 99%;
+    height: 200px;
+    background: none repeat scroll 0 0 rgba(168, 168, 168, 0.4);
+    border-radius: 4px;
+    color: white;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 1em;
+    line-height: 1.4em;
+    transition: background-color 0.2s ease 0s;
+}
+
+textarea::-webkit-input-placeholder {
+    opacity: .5;
+    color: #1F1B24;
+}
+
+textarea:-moz-placeholder { /* Firefox 18- */
+    color: #1F1B24;
+}
+
+textarea::-moz-placeholder {  /* Firefox 19+ */
+    color: #1F1B24;
+}
+
+textarea:-ms-input-placeholder {
+    color: #1F1B24;
+}
+
+textarea::placeholder {
+    opacity: .5;
+    color: #1F1B24;
+}
+
+textarea:focus {
+    color: #000000;
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.9);
+    transition: background-color 0.2s ease 0s;
+}
+
+fieldset {
+    border: none;
+    background: rgba(138, 181, 118, 0.8);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 75px;
+    width: 90%;
+    height: auto;
+    border-radius: 15px;
+    animation-name: widthMotion;
+    animation-duration: 1s;
+}
+
+@keyframes widthMotion {
+    from {
+        width: 10%;
+    }
+    to {
+        width: 90%;
+    }
+}
+
+.contact-form-confidential {
+    text-decoration: none;
+    color: #6b5b4f;
+    font-weight: bold;
+    margin-left: 5px;
+    transition:ease-in-out .5s;
+}
+
+.contact-form-confidential:hover{
+    color: #ffe3cf;
+    transition:ease-in-out .5s;
+}
+
+.contact-buttons button{
+    margin-left: 15px;
+    margin-top: 10px;
+    border: 1px solid #8ab576;
+    padding: 9px 10px;
+    width: 200px;
+    border-radius: 20px;
+    background-color: #8ab576;
+    font-weight: bold;
+}
+
+.contact-buttons {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.contact-buttons button:hover {
+    background-color: #1F1B24;
+    transition: background-color .5s;
+    color: white;
+}
+
+@media (max-width: 700px) {
+    .contact-buttons button {
+        margin-left: 0;
+    }
+}
+
+
+
