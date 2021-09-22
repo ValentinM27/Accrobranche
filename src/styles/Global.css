@@ -7,6 +7,10 @@ html {
     background: #1F1B24;
 }
 
+input, option {
+    -webkit-appearance: none;
+}
+
 .content {
     color: white;
     width: 90%;
