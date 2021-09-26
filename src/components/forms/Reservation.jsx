@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import NumericInput from "react-numeric-input";
 import {Link} from "react-router-dom";
 
 class Reservation extends Component {
@@ -13,29 +12,32 @@ class Reservation extends Component {
                             Je souhaite réserver !
                         </h2>
 
+                        <input type="mail"  placeholder="Votre mail" name="mail" id="mail" required/>
+
                         <div className="contact-form-info">
-                            <select id="contact-form-gender">
+                            <span className="contact-form-info-reponsive-child">
+                                <select id="contact-form-gender">
                                 <option value="Male">M</option>
                                 <option value="Female">Mme</option>
                                 <option value="Other">Autres</option>
-                            </select>
+                                </select>
 
-                            <input type="text" placeholder="Prénom" name="Firstname" id="lastname" required/>
+                                <input type="text" placeholder="Prénom" name="Firstname" id="lastname" required/>
+                            </span>
+
                             <input type="text" placeholder="Nom" name="Lastname" id="lastname" required/>
                         </div>
 
                         <div className="contact-form-date">
-                            <label htmlFor="Age">Votre âge</label>
-                            <NumericInput name="Age" min={7} max={99} value={30} />
+                            <span className="contact-form-date-element">
+                                <label className="contact-form-date-text" htmlFor="start">Date de début:</label>
+                                <input className="contact-form-date-input" type="date" id="start" name="trip-start" required/>
+                            </span>
 
-                            <div>
-                                <label htmlFor="start">Date de début:</label>
-                                <input type="date" id="start" name="trip-start"/>
-
-                                <label htmlFor="start">Date de fin:</label>
-                                <input type="date" id="end" name="trip-end"/>
-                            </div>
-
+                            <span className="contact-form-date-element">
+                                <label className="contact-form-date-text" htmlFor="start">Date de fin (falcultatif):</label>
+                                <input className="contact-form-date-input" type="date" id="end" name="trip-end"/>
+                            </span>
                         </div>
 
 

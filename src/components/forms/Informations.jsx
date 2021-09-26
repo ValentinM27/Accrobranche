@@ -12,16 +12,19 @@ class Informations extends Component {
                             Je souhaite des informations !
                         </h1>
 
-                        <div className="contact-form-info">
-                            <input type="mail"  placeholder="Votre mail" name="mail" id="mail" required/>
+                        <input type="mail"  placeholder="Votre mail" name="mail" id="mail" required/>
 
-                            <select id="contact-form-gender">
+                        <div className="contact-form-info">
+                            <span className="contact-form-info-reponsive-child">
+                                <select id="contact-form-gender">
                                 <option value="Male">M</option>
                                 <option value="Female">Mme</option>
                                 <option value="Other">Autres</option>
-                            </select>
+                                </select>
 
-                            <input type="text" placeholder="Prénom" name="Firstname" id="lastname" required/>
+                                <input type="text" placeholder="Prénom" name="Firstname" id="lastname" required/>
+                            </span>
+
                             <input type="text" placeholder="Nom" name="Lastname" id="lastname" required/>
                         </div>
 
