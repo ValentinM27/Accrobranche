@@ -7,6 +7,10 @@ html {
     background: #1F1B24;
 }
 
+button, input[type=submit] {
+    -webkit-appearance: none;
+}
+
 .content {
     color: white;
     width: 90%;
@@ -595,7 +599,7 @@ textarea:focus {
 
 fieldset {
     border: none;
-    background: rgba(138, 181, 118, 0.8);
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(15, 15, 15, 0.5)), url("../images/form-background.jpg") no-repeat center;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 75px;
@@ -650,10 +654,92 @@ fieldset {
     color: white;
 }
 
+.contact-form-date {
+    text-align: left;
+}
+
+.contact-form-date-input {
+    width: 40%;
+    border-radius: 5px;
+    padding: 14px 20px;
+    border: none;
+    font-weight: bold;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.contact-form-date-text {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 5px 5px;
+}
+
+.contact-form-date-element {
+    border-radius: 15px;
+    height: 100px;
+    width: 50%;
+    display: inline-block;
+}
+
+.contact-form-info {
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-form-info-reponsive-child {
+    width: 100%;
+    display: flex;
+}
+
+.contact-form-info input[type=text] {
+    margin-left: 15px;
+}
+
+.contact-form-info select {
+    text-align: center;
+    width: 25%;
+}
+
+.contact-form-pass-container {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
 @media (max-width: 700px) {
+
+    .contact-form-info-reponsive-child {
+        width: 100%;
+        display: flex;
+    }
+
+    .contact-form-info{
+        display: unset;
+    }
+
+    .contact-form-info input[type=text] {
+        margin-left: 0;
+    }
+
+    .contact-form-info select {
+        margin-right: 10px;
+        text-align: center;
+        width: 33%;
+    }
+
     .contact-buttons button {
         margin-left: 0;
     }
+
+    .contact-form-date {
+        width: 100%;
+    }
+
+    .contact-form-date-element {
+        display: unset;
+        width: 100%;
+    }
+
 }
 
 
