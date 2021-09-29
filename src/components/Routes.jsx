@@ -28,7 +28,7 @@ class Routes extends Component {
                     <div className="green-route">
                         <div className="route-detail">
                             <h1>Ez</h1>
-                            <h2>Tu veux pas passer pour un débutant, dis le ! 😏</h2>
+                            <h2>L'heure de sauter dans le grand bain ! 💪</h2>
                             <Link to="/contact">
                                 Je réserve !
                             </Link>
@@ -64,7 +64,7 @@ class Routes extends Component {
                     <div className="red-route">
                         <div className="route-detail">
                             <h1>Godlike</h1>
-                            <h2>T'es pas humain toi, t'es différent ! 🔥</h2>
+                            <h2>Officielement la légende de l'Accro'Batie ! 🔥</h2>
                             <Link to="/contact">
                                 Je réserve !
                             </Link>
