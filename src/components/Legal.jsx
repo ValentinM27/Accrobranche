@@ -50,7 +50,7 @@ class Legal extends Component {
 
                         <span>
 
-                        <h2>Nous contacter:</h2>
+                        <h2>Nous contacter :</h2>
 
                         <p>
                             MARGUERIE Valentin | <a className="contact"
