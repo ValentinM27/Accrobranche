@@ -18,10 +18,10 @@ class Reservation extends Component {
 
                         <div className="contact-form-info">
                             <span className="contact-form-info-reponsive-child">
-                                <select id="contact-form-gender">
-                                <option value="Male">M</option>
-                                <option value="Female">Mme</option>
-                                <option value="Other">Autres</option>
+                                <select id="contact-form-gender" name="gender">
+                                    <option value="Male">M</option>
+                                    <option value="Female">Mme</option>
+                                    <option value="Other">Autres</option>
                                 </select>
 
                                 <input type="text" placeholder="Prénom" name="Firstname" id="lastname" required/>
@@ -32,7 +32,7 @@ class Reservation extends Component {
 
                         <div className="contact-form-date">
                             <span className="contact-form-date-element">
-                                <label className="contact-form-date-text" htmlFor="start">Date de début:</label>
+                                <label className="contact-form-date-text" htmlFor="start">Date de début: (*)</label>
                                 <input className="contact-form-date-input" type="date" id="start" name="trip-start"
                                        required/>
                             </span>
@@ -45,14 +45,30 @@ class Reservation extends Component {
                         </div>
 
                         <div className="contact-form-pass-container">
-                            Selectionner un type de pass
-                            <select id="contact-form-pass">
-                                <option value="Pass'age">Pass'age</option>
-                                <option value="Im'pass">Im'pass</option>
-                                <option value="Pass'taga">Pass'taga</option>
-                                <option value="Pass'pourtout">Pass'partout</option>
-                                <option value="Pass'iphaé">Pass'iphaé</option>
-                                <option value="Pass'port">Pass'port</option>
+                            Selectionner un pass (*)
+                            <div className="contact-form-pass-element">
+                                <select id="contact-form-pass" name="passType">
+                                    <option value="Pass'age">Pass'age</option>
+                                    <option value="Im'pass">Im'pass</option>
+                                    <option value="Pass'taga">Pass'taga</option>
+                                    <option value="Pass'pourtout">Pass'partout</option>
+                                    <option value="Pass'iphaé">Pass'iphaé</option>
+                                    <option value="Pass'port">Pass'port</option>
+                                </select>
+
+                                <input placeholder="Nombre de pass (De 1 à 200)" type="number" min="1" max="200"/>
+                            </div>
+                        </div>
+
+                        <div className="contact-form-pass-container">
+                            Type d'évènement (facultatif)
+                            <select id="contact-form-pass" name="EventType">
+                                <option value="CE">CE</option>
+                                <option value="Anniversaire">Anniversaire</option>
+                                <option value="Fête">Fête</option>
+                                <option value="Mariage">Mariage</option>
+                                <option value="Soirée">Soirée</option>
+                                <option value="Autre">Autre ...</option>
                             </select>
                         </div>
 

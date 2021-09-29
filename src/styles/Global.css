@@ -491,30 +491,28 @@ header {
     margin-bottom: 8%;
 }
 
-@media (max-height: 850px) {
-    .yellow-route, .green-route, .blue-route, .purple-route, .red-route {
-        width: 75%;
-        margin-top: 10%;
-        margin-bottom: min(100px, 25%);
-        height: 400px;
-    }
+.yellow-route, .green-route, .blue-route, .purple-route, .red-route {
+    width: 75%;
+    margin-top: 5%;
+    margin-bottom: min(100px, 25%);
+    height: 400px;
+}
 
-    .route-detail {
-        height: 400px;
-    }
+.route-detail {
+    height: 400px;
+}
 
-    .route-detail h1 {
-        margin-top: 110px;
-        font-size: 2.7em;
-    }
+.route-detail h1 {
+    margin-top: 110px;
+    font-size: 2.7em;
+}
 
-    .route-detail h2 {
-        font-size: 1.2em;
-    }
+.route-detail h2 {
+    font-size: 1.2em;
+}
 
-    .bottom-page-link {
-        margin-bottom: 115px;
-    }
+.bottom-page-link {
+    margin-bottom: 115px;
 }
 
 /* Gestion de Contact.jsx */
@@ -544,7 +542,7 @@ header {
 }
 
 
-input[type=text], select, input[type=mail] {
+input[type=text], select, input[type=mail], input[type=number]{
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -702,9 +700,22 @@ fieldset {
 }
 
 .contact-form-pass-container {
+    text-align: left;
     font-weight: bold;
     font-size: 1.2em;
 }
+
+.contact-form-pass-element {
+    display: flex;
+}
+
+.contact-form-pass-element:nth-child(1) select {
+    margin-right: 7px;
+}
+
+
+
+
 
 @media (max-width: 700px) {
 
