@@ -753,5 +753,39 @@ fieldset {
 
 }
 
+/* Gestion de Confidential.jsx et Legal.jsx */
+
+.conf-legal {
+    margin-bottom: 100px;
+    text-align: justify;
+}
+
+.conf-legal h2 {
+    margin-left: 25px;
+}
+
+.conf-legal h3, p, ul li {
+    margin-left: 50px;
+}
+
+.conf-legal ul li {
+    margin-top: 15px;
+}
+
+.conf-legal h2 {
+    margin-top: 50px;
+}
+
+.conf-legal a {
+    text-decoration: none;
+    color: #edaf02;
+    transition: ease-in-out .5s;
+}
+
+.conf-legal a:hover {
+    font-weight: bold;
+    color: #ffe3cf;
+    transition: ease-in-out .5s;
+}
 
 
