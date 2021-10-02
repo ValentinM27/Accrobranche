@@ -34,7 +34,7 @@ class About extends Component {
                     </div>
 
                     <div className="parallax3">
-                        <h2>Une petite faim ?</h2>
+                        <h2>Pas fan de la hauteur ?</h2>
                     </div>
 
                     <div className="about-content">
