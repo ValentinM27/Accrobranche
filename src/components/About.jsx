@@ -29,7 +29,7 @@ class About extends Component {
                         Elles évoluent constamment pour être au plus prêt des tendances du moment.
                         Certains pourraient dire que nous visons les cimes avec nos infrastructures !
                         Vous pensez sûrement que l’accrobranche est vieux et dérisoire, que nenni !
-                        <span className="keyword">Nous innovons</span> en s’inspirant d’autres sports. Tel que le snowboard par exemple !
+                        <span className="keyword"> Nous innovons</span> en s’inspirant d’autres sports. Tel que le snowboard par exemple !
                         Eh oui, quoi de mieux que de descendre une tyrolienne tout en montant une planche !
                     </div>
 
