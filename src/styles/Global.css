@@ -14,9 +14,9 @@ button, input[type=submit] {
 .content {
     color: white;
     width: 90%;
-    margin: 50px auto;
     animation-name: BottomToTop;
     animation-duration: 2s;
+    margin: 50px auto 150px;
 }
 
 @keyframes BottomToTop {
@@ -29,16 +29,24 @@ button, input[type=submit] {
 }
 
 .content h1 {
-    font-size: 2em;
+    font-size: 2.2em;
 }
 
 .content h2 {
+    font-size: 1.9em;
+}
+
+.content h3 {
     font-size: 1.7em;
 }
 
 .content p {
-    font-size: 1.15em;
-    text-align: justify;
+    font-size: 1.5em;
+}
+
+.keyword {
+    font-weight: bold;
+    color: #edaf02;
 }
 
 @media (max-width: 700px) {
@@ -786,6 +794,104 @@ fieldset {
     font-weight: bold;
     color: #ffe3cf;
     transition: ease-in-out .5s;
+}
+
+@media (max-width: 700px) {
+    .conf-legal {
+        text-align: left;
+    }
+}
+
+/* Gestion de About.jsx */
+.parallax1 {
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(15, 15, 15, 0.5)), url("../images/parallax1.jpg") fixed center no-repeat;
+    min-height: 400px;
+    width: 100%;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+    border-radius: 15px;
+}
+
+.parallax2 {
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(15, 15, 15, 0.5)), url("../images/parallax2.jpg") fixed center no-repeat;
+    min-height: 400px;
+    width: 100%;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+    border-radius: 15px;
+}
+
+.parallax3 {
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(15, 15, 15, 0.5)), url("../images/parallax3.png") fixed center no-repeat;
+    min-height: 400px;
+    width: 100%;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+    border-radius: 15px;
+}
+
+.parallax4 {
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(15, 15, 15, 0.5)), url("../images/parallax4.png") fixed center no-repeat;
+    min-height: 400px;
+    width: 100%;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+    border-radius: 15px;
+}
+
+.parallax5 {
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(15, 15, 15, 0.5)), url("../images/parallax5.png") fixed center no-repeat;
+    min-height: 400px;
+    width: 100%;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+    border-radius: 15px;
+}
+
+
+.parallax1 h2, .parallax2 h2, .parallax3 h2, .parallax4 h2, .parallax5 h2 {
+    font-size: 3em;
+    animation-name: parallaxTitle;
+    animation-duration: 3s;
+}
+
+.about-content a {
+    color: #8ab576;
+    text-decoration: none;
+    transition: ease-in-out 1s;
+}
+
+.about-content a:hover {
+    border-bottom: 1px solid #edaf02;
+    transition: ease-in .5s;
+}
+
+@keyframes parallaxTitle {
+    from {
+        font-size: 0;
+        opacity: 0;
+    }
+    to {
+        font-size: 3em;
+        opacity: 1;
+    }
+}
+
+.about-content {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 1.8em;
+    text-align: left;
 }
 
 
