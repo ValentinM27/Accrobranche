@@ -1,4 +1,6 @@
 let data;
+
+// eslint-disable-next-line
 export default data = [
     {
         id: 1,

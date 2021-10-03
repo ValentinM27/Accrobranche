@@ -72,7 +72,7 @@ class Confidential extends Component {
                         MARGUERIE Valentin | <a id="contact" href="mailto:Valentin_Marguerie@etu.u-bourgogne.fr">Valentin_Marguerie@etu.u-bourgogne.fr</a>
                     </p>
 
-                    <h2>Site de la CNIL</h2>
+                    <h2>Site de la CNIL :</h2>
 
                     <p>
                         Retrouvez plus d'informations sur le site de la <a id="cnil" target="blank" href="https://www.cnil.fr/">CNIL</a>
