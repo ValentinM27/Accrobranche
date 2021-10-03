@@ -803,6 +803,17 @@ fieldset {
 }
 
 /* Gestion de About.jsx */
+.parallax0 {
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(15, 15, 15, 0.5)), url("../images/parallax0.png") fixed center no-repeat;
+    min-height: 400px;
+    width: 100%;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+    border-radius: 15px;
+}
+
 .parallax1 {
     text-align: center;
     background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(15, 15, 15, 0.5)), url("../images/parallax1.jpg") fixed center no-repeat;
@@ -859,7 +870,7 @@ fieldset {
 }
 
 
-.parallax1 h2, .parallax2 h2, .parallax3 h2, .parallax4 h2, .parallax5 h2 {
+.parallax0 h2, .parallax1 h2, .parallax2 h2, .parallax3 h2, .parallax4 h2, .parallax5 h2 {
     font-size: 3em;
     animation-name: parallaxTitle;
     animation-duration: 3s;
