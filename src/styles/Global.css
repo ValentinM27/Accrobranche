@@ -812,6 +812,8 @@ fieldset {
     display: grid;
     place-items: center;
     border-radius: 15px;
+    animation-name: widthMotion2;
+    animation-duration: 2s;
 }
 
 .parallax1 {
@@ -823,6 +825,8 @@ fieldset {
     display: grid;
     place-items: center;
     border-radius: 15px;
+    animation-name: widthMotion2;
+    animation-duration: 2s;
 }
 
 .parallax2 {
@@ -834,6 +838,8 @@ fieldset {
     display: grid;
     place-items: center;
     border-radius: 15px;
+    animation-name: widthMotion2;
+    animation-duration: 2s;
 }
 
 .parallax3 {
@@ -845,6 +851,8 @@ fieldset {
     display: grid;
     place-items: center;
     border-radius: 15px;
+    animation-name: widthMotion2;
+    animation-duration: 2s;
 }
 
 .parallax4 {
@@ -856,6 +864,8 @@ fieldset {
     display: grid;
     place-items: center;
     border-radius: 15px;
+    animation-name: widthMotion2;
+    animation-duration: 2s;
 }
 
 .parallax5 {
@@ -867,6 +877,8 @@ fieldset {
     display: grid;
     place-items: center;
     border-radius: 15px;
+    animation-name: widthMotion2;
+    animation-duration: 2s;
 }
 
 
@@ -885,6 +897,15 @@ fieldset {
 .about-content a:hover {
     border-bottom: 1px solid #edaf02;
     transition: ease-in .5s;
+}
+
+@keyframes widthMotion2 {
+    from {
+        width: 20%;
+    }
+    to {
+        width: 100%;
+    }
 }
 
 @keyframes parallaxTitle {
