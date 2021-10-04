@@ -8,6 +8,25 @@ class About extends Component {
                 <div>
                     <h1>Qui sommes nous ?</h1>
 
+                    <div className="parallax0">
+                        <h2>Notre histoire</h2>
+                    </div>
+
+                    <div className="about-content">
+                        Implanté en plein <span className="keyword">parc naturel régional des Causses du Quercy</span> dans le Lot,
+                        l’Accro’batie est un parc de loisirs occitan de 5 hectares concentré sur l’accrobranche et ses dérivées.
+                        Le domaine voit le jour en 1996 et il est l’un des précurseurs du développement de ces parcours acrobatiques en hauteur en France.<br />
+                        Notre parc est situé aux abords du petit village de Flaujac-Poujols, à 8km au sud de Cahors ainsi que 30km à l’est de Montcuq.
+                    </div>
+
+                    <div className="about-content">
+                        <span className="keyword">Idéalement placé à quelques minutes de l’autoroute A20</span>, nous vous offrons une situation
+                        idéale à qui veut pratiquer l’accrobranche en famille comme entre amis.
+                        Vous découvrirez sur place notre équipe amoureuse de la nature et passionnée de l’aventure,
+                        de la hauteur et du plaisir procuré par l’accrobranche. <span className="keyword">Jeunes et dynamiques, nos professionnels vous accueilleront </span>
+                        et vous guideront dans une ambiance agréable afin de vivre des moments mémorables à 15 mètres du sol !
+                    </div>
+
                     <div className="parallax1">
                         <h2>Nos infrastuctures</h2>
                     </div>
