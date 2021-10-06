@@ -305,7 +305,7 @@ header {
     margin-right: auto;
     width: 85%;
     height: 700px;
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../images/background-main.jpeg") no-repeat center fixed;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../images/background-main.jpeg") no-repeat center;
 }
 
 .home:hover {
