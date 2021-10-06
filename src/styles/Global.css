@@ -350,10 +350,16 @@ header {
     transition: ease-in-out .5s;
 }
 
+@media (max-width: 700px) {
+    .home {
+        margin-top: 10%;
+    }
+}
+
 
 @media (max-height: 850px) {
     .home {
-        margin-top: 10%;
+        margin-top: 5%;
         margin-bottom: min(100px, 25%);
         height: 400px;
     }
