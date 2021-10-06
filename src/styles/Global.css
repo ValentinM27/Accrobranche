@@ -778,6 +778,10 @@ fieldset {
     margin-left: 25px;
 }
 
+.conf-legal ul li {
+    font-size: 1.5em;
+}
+
 .conf-legal h3, p, ul li {
     margin-left: 50px;
 }
