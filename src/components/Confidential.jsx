@@ -12,10 +12,12 @@ class Confidential extends Component {
                     <h2 id="titreIntro">Introduction :</h2>
 
                     <p>
-                        Dans le cadre d'une utilisation commerciale,Accro'batie et son partenaire infromatique Jakova Inc. sont
+                        Dans le cadre d'une utilisation commerciale,Accro'batie et son partenaire informatique Jakova Inc. sont
                         amené à collecter et traiter des données sur votre personne.
                         Ces dernières sont dites "données personnelles". Notre groupe est impliqué dans la protection
-                        de ces données ainsi que dans le respect de leur intégrité, le tout dans le but d'une finalité précise.
+                        de ces données ainsi que dans le respect de leur intégrité, le tout dans le but d'une finalité précise.<br />
+                        Nous utilisons ces données afin d'établir différentes statistiques telles que la fréquentation et les parcours
+                        les services les plus demandés ainsi que pour vous recontacter à la suite de vos demandes et réservations.
                     </p>
 
                     <h2>Données personnelles :</h2>
@@ -34,7 +36,7 @@ class Confidential extends Component {
                     <h2>Utilisation des données :</h2>
 
                     <p>
-                        Les données récoltées nous permettent de déduire qui à formulé des demandes via à notre site. De manière à  pouvoir
+                        Les données récoltées nous permettent de déduire qui à formulé des demandes via notre site. De manière à  pouvoir
                         facilement vous contacter pour donner suite à vos demandes.
                         Ces données récoltées par notre groupe ne seront en aucun cas cédées à des tiers ni utilisées
                         à d'autres fins que celles détaillées ci-dessus.
