@@ -383,11 +383,11 @@ header {
     margin-right: auto;
     width: 50%;
     height: 600px;
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../images/yellow-course.jpg") no-repeat center;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../images/yellow-course.jpg") no-repeat center fixed;
 }
 
 .yellow-route:hover {
-    background: linear-gradient(rgba(232, 232, 219, 0.5),rgba(232, 232, 219, 0.5)), url("../images/yellow-course.jpg") no-repeat center;
+    background: linear-gradient(rgba(232, 232, 219, 0.5),rgba(232, 232, 219, 0.5)), url("../images/yellow-course.jpg") no-repeat center fixed;
 }
 
 /* Parcours Vert */
@@ -399,11 +399,11 @@ header {
     margin-right: auto;
     width: 50%;
     height: 600px;
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../images/green-course.jpg") no-repeat center;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../images/green-course.jpg") no-repeat center fixed;
 }
 
 .green-route:hover {
-    background: linear-gradient(rgba(232, 232, 219, 0.5),rgba(232, 232, 219, 0.5)), url("../images/green-course.jpg") no-repeat center;
+    background: linear-gradient(rgba(232, 232, 219, 0.5),rgba(232, 232, 219, 0.5)), url("../images/green-course.jpg") no-repeat center fixed;
 }
 
 /* Parcours bleu */
@@ -415,11 +415,11 @@ header {
     margin-right: auto;
     width: 50%;
     height: 600px;
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../images/blue-course.jpg") no-repeat center;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../images/blue-course.jpg") no-repeat center fixed;
 }
 
 .blue-route:hover {
-    background: linear-gradient(rgba(232, 232, 219, 0.5),rgba(232, 232, 219, 0.5)), url("../images/blue-course.jpg") no-repeat center;
+    background: linear-gradient(rgba(232, 232, 219, 0.5),rgba(232, 232, 219, 0.5)), url("../images/blue-course.jpg") no-repeat center fixed;
 }
 
 /* Parcours Violet */
@@ -431,11 +431,11 @@ header {
     margin-right: auto;
     width: 50%;
     height: 600px;
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../images/purple-course.jpg") no-repeat center;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../images/purple-course.jpg") no-repeat center fixed;
 }
 
 .purple-route:hover {
-    background: linear-gradient(rgba(232, 232, 219, 0.5),rgba(232, 232, 219, 0.5)), url("../images/purple-course.jpg") no-repeat center;
+    background: linear-gradient(rgba(232, 232, 219, 0.5),rgba(232, 232, 219, 0.5)), url("../images/purple-course.jpg") no-repeat center fixed;
 }
 
 /* Parcours Rouge */
@@ -447,11 +447,11 @@ header {
     margin-right: auto;
     width: 50%;
     height: 600px;
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../images/red-course.jpg") no-repeat center;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../images/red-course.jpg") no-repeat center fixed;
 }
 
 .red-route:hover {
-    background: linear-gradient(rgba(232, 232, 219, 0.5),rgba(232, 232, 219, 0.5)), url("../images/red-course.jpg") no-repeat center;
+    background: linear-gradient(rgba(232, 232, 219, 0.5),rgba(232, 232, 219, 0.5)), url("../images/red-course.jpg") no-repeat center fixed;
 }
 
 
