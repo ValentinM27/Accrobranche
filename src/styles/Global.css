@@ -21,10 +21,10 @@ button, input[type=submit] {
 
 @keyframes BottomToTop {
     from {
-        margin-top: 100%;
+        opacity: 0;
     }
     to {
-        margin-top: 50px;
+        opacity: 1;
     }
 }
 
@@ -59,10 +59,10 @@ button, input[type=submit] {
 
     @keyframes BottomToTop {
         from {
-            margin-top: 100%;
+            opacity: 0;
         }
         to {
-            margin-top: 0;
+            opacity: 1;
             width: 90%;
         }
     }
@@ -935,5 +935,4 @@ fieldset {
     font-size: 1.8em;
     text-align: left;
 }
-
 

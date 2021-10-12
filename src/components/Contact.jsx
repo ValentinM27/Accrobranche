@@ -4,6 +4,10 @@ import Informations from "./forms/Informations";
 
 class Contact extends Component {
 
+    componentDidMount() {
+        window.scrollTo(0, 0)
+    }
+
     constructor() {
         super();
 
