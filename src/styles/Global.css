@@ -21,10 +21,10 @@ button, input[type=submit] {
 
 @keyframes BottomToTop {
     from {
-        margin-top: 100%;
+        opacity: 0;
     }
     to {
-        margin-top: 50px;
+        opacity: 1;
     }
 }
 
@@ -59,10 +59,10 @@ button, input[type=submit] {
 
     @keyframes BottomToTop {
         from {
-            margin-top: 100%;
+            opacity: 0;
         }
         to {
-            margin-top: 0;
+            opacity: 1;
             width: 90%;
         }
     }
@@ -309,7 +309,7 @@ header {
 }
 
 .home:hover {
-    background: linear-gradient(rgba(232, 232, 219, 0.5),rgba(232, 232, 219, 0.5)), url("../images/background-main.jpeg") no-repeat center;
+    background: linear-gradient(rgba(232, 232, 219, 0.5),rgba(232, 232, 219, 0.5)), url("../images/background-main.jpeg") no-repeat center fixed;
 }
 
 .home-detail {
@@ -350,10 +350,16 @@ header {
     transition: ease-in-out .5s;
 }
 
+@media (max-width: 700px) {
+    .home {
+        margin-top: 10%;
+    }
+}
+
 
 @media (max-height: 850px) {
     .home {
-        margin-top: 10%;
+        margin-top: 5%;
         margin-bottom: min(100px, 25%);
         height: 400px;
     }
@@ -383,11 +389,11 @@ header {
     margin-right: auto;
     width: 50%;
     height: 600px;
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../images/yellow-course.jpg") no-repeat center;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../images/yellow-course.jpg") no-repeat center fixed;
 }
 
 .yellow-route:hover {
-    background: linear-gradient(rgba(232, 232, 219, 0.5),rgba(232, 232, 219, 0.5)), url("../images/yellow-course.jpg") no-repeat center;
+    background: linear-gradient(rgba(232, 232, 219, 0.5),rgba(232, 232, 219, 0.5)), url("../images/yellow-course.jpg") no-repeat center fixed;
 }
 
 /* Parcours Vert */
@@ -399,11 +405,11 @@ header {
     margin-right: auto;
     width: 50%;
     height: 600px;
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../images/green-course.jpg") no-repeat center;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../images/green-course.jpg") no-repeat center fixed;
 }
 
 .green-route:hover {
-    background: linear-gradient(rgba(232, 232, 219, 0.5),rgba(232, 232, 219, 0.5)), url("../images/green-course.jpg") no-repeat center;
+    background: linear-gradient(rgba(232, 232, 219, 0.5),rgba(232, 232, 219, 0.5)), url("../images/green-course.jpg") no-repeat center fixed;
 }
 
 /* Parcours bleu */
@@ -415,11 +421,11 @@ header {
     margin-right: auto;
     width: 50%;
     height: 600px;
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../images/blue-course.jpg") no-repeat center;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../images/blue-course.jpg") no-repeat center fixed;
 }
 
 .blue-route:hover {
-    background: linear-gradient(rgba(232, 232, 219, 0.5),rgba(232, 232, 219, 0.5)), url("../images/blue-course.jpg") no-repeat center;
+    background: linear-gradient(rgba(232, 232, 219, 0.5),rgba(232, 232, 219, 0.5)), url("../images/blue-course.jpg") no-repeat center fixed;
 }
 
 /* Parcours Violet */
@@ -431,11 +437,11 @@ header {
     margin-right: auto;
     width: 50%;
     height: 600px;
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../images/purple-course.jpg") no-repeat center;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../images/purple-course.jpg") no-repeat center fixed;
 }
 
 .purple-route:hover {
-    background: linear-gradient(rgba(232, 232, 219, 0.5),rgba(232, 232, 219, 0.5)), url("../images/purple-course.jpg") no-repeat center;
+    background: linear-gradient(rgba(232, 232, 219, 0.5),rgba(232, 232, 219, 0.5)), url("../images/purple-course.jpg") no-repeat center fixed;
 }
 
 /* Parcours Rouge */
@@ -447,11 +453,11 @@ header {
     margin-right: auto;
     width: 50%;
     height: 600px;
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../images/red-course.jpg") no-repeat center;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../images/red-course.jpg") no-repeat center fixed;
 }
 
 .red-route:hover {
-    background: linear-gradient(rgba(232, 232, 219, 0.5),rgba(232, 232, 219, 0.5)), url("../images/red-course.jpg") no-repeat center;
+    background: linear-gradient(rgba(232, 232, 219, 0.5),rgba(232, 232, 219, 0.5)), url("../images/red-course.jpg") no-repeat center fixed;
 }
 
 
@@ -772,6 +778,10 @@ fieldset {
     margin-left: 25px;
 }
 
+.conf-legal ul li {
+    font-size: 1.5em;
+}
+
 .conf-legal h3, p, ul li {
     margin-left: 50px;
 }
@@ -925,5 +935,4 @@ fieldset {
     font-size: 1.8em;
     text-align: left;
 }
-
 

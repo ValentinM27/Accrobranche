@@ -1,6 +1,10 @@
 import React, {Component} from 'react';
 
 class Legal extends Component {
+    componentDidMount() {
+        window.scrollTo(0, 0)
+    }
+
     render() {
         return (
             <div className="content">
@@ -21,7 +25,8 @@ class Legal extends Component {
                     <h2>Edition du site :</h2>
 
                     <p>
-                        Le site Accorbatie.fr est édité par le groupe de Jakova Inc. Entreprise de développement informatique.
+                        Le site Accorbatie.fr est édité par le groupe de Jakova Inc. Entreprise de développement informatique.<br />
+                        Pour contacter Jakova Inc. cliquez <a href="https://valentinmarguerie.fr" target="_blank" rel="noreferrer">ici</a>
                     </p>
 
                     </span>

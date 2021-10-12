@@ -2,6 +2,9 @@ import React, {Component} from 'react';
 import listPass from "../Helpers/listPass";
 
 class Activities extends Component {
+    componentDidMount() {
+        window.scrollTo(0, 0)
+    }
 
     render() {
         return (
