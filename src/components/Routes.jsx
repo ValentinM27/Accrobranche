@@ -4,6 +4,7 @@ import {Link} from "react-router-dom";
 class Routes extends Component {
     componentDidMount() {
         window.scrollTo(0, 0)
+        document.body.style.backgroundColor = "#1F1B24"
     }
 
     render() {
