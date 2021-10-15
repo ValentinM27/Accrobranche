@@ -3,6 +3,7 @@ import React, {Component} from 'react';
 class Confidential extends Component {
     componentDidMount() {
         window.scrollTo(0, 0)
+        document.body.style.backgroundColor = "#1F1B24"
     }
 
     render() {
