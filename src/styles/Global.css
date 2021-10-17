@@ -4,7 +4,6 @@
 }
 
 html {
-    background: url("../images/background-main.jpeg") no-repeat center;
     background-color: #1F1B24;
 }
 
@@ -299,9 +298,9 @@ header {
 /* Gestion de Home.jsx */
 
 .home {
-    margin-top: 2.5%;
+    background: url("../images/background-main.jpeg") no-repeat center;
+    background-size: cover;
     align-items: center;
-    border-radius: 20px;
     margin-left: auto;
     margin-right: auto;
     height: 100vh;
