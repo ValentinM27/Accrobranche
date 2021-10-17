@@ -1036,3 +1036,15 @@ fieldset {
         text-align: center;
     }
 }
+
+.restaurant-container a {
+    margin-top: 15px;
+    color: #edaf02;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.restaurant-container a:hover {
+    color: #ffe3cf;
+    transition: color .5s;
+}

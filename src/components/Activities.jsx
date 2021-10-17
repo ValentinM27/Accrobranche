@@ -70,6 +70,24 @@ class Activities extends Component {
                     </div>
                 </div>
 
+                <div className="restaurant-container">
+                    <h2>Notre restaurant</h2>
+                    <p>
+                        Pour pouvoir vous restaurer après une longue journée dans les arbres ! <br />
+                        <a href="https://drive.google.com/file/d/1W_VHP43B02UpyzZTPdqLkG7hkzYlz7uG/view?usp=sharing" rel="noreferrer" target="_blank">Cliquez pour voir notre carte</a>
+                    </p>
+
+                    <h2>Nos cabanes</h2>
+                    <p>
+                        Vous souhaitez rester pour profiter tout nos services et parcours, pas de problèmes, passez une nuit (ou plusieurs) en hauteur !<br />
+                        <a href="https://drive.google.com/file/d/1pfvBy0xBMc8yYsDVYUCMthw1NFhYz9ah/view?usp=sharing" rel="noreferrer" target="_blank">Cliquez pour voir nos offres cabanes</a>
+                    </p>
+
+                    <h2>Pour les enfants, l'Accro'Kid</h2>
+                    <p>
+                        Un parcours déstiné aux enfants, ainsi que des mini-jeux encadrés par nos animateurs. Prix demi journée de 12€ pour les enfants allant de 3 à 7 ans.
+                    </p>
+                </div>
             </div>
         );
     }
