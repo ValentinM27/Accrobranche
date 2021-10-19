@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, {Component, useEffect} from 'react';
 import {Link} from "react-router-dom";
 
 class About extends Component {
@@ -7,6 +7,14 @@ class About extends Component {
     }
 
     render() {
+
+        const scrollToTop = () =>{
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        };
+
         return (
             <div className="content">
                 <div>
@@ -91,6 +99,10 @@ class About extends Component {
                         <Link to="/Activities">
                             Découvrez nos services
                         </Link>
+                    </div>
+
+                    <div>
+                        <button onClick={scrollToTop}>Return to top</button>
                     </div>
                 </div>
 
