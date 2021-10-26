@@ -69,7 +69,7 @@ class Confidential extends Component {
                     <h2>Vos droits concernant vos données personnelles :</h2>
 
                     <p>
-                        Vous avez le droit à la consultation, à la modification ainsi qu'à la suppression de vos données peersonnelles.
+                        Vous avez le droit à la consultation, à la modification ainsi qu'à la suppression de vos données personnelles.
                     </p>
 
                     <h2>Contact délégué à la protection des données :</h2>
