@@ -1047,6 +1047,11 @@ fieldset {
     transition: color .5s;
 }
 
+.title-pass {
+    color: #edaf02;
+    margin-left: 15px;
+}
+
 /* Gestion des boutons */
 .bottom-button-container {
     text-align: center;
