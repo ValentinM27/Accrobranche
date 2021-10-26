@@ -7,6 +7,14 @@ class Activities extends Component {
     }
 
     render() {
+
+        const scrollToTop = () =>{
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        };
+
         return (
             <div className="content">
                 <h1>Nos Services et Activités</h1>
@@ -63,7 +71,7 @@ class Activities extends Component {
                                 </tr>
                                 <tr>
                                     <td>Pass'port</td>
-                                    <td colSpan="4" align="center">Tarif Pass'Partout + Prix de la cabanne choisi</td>
+                                    <td colSpan="4" align="center">Tarif Pass'Partout + Prix de la cabane choisi</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -87,6 +95,10 @@ class Activities extends Component {
                     <p>
                         Un parcours déstiné aux enfants, ainsi que des mini-jeux encadrés par nos animateurs. Prix demi journée de 12€ pour les enfants allant de 3 à 7 ans.
                     </p>
+                </div>
+
+                <div className="bottom-button-container">
+                    <button className="bottom-button" onClick={scrollToTop}>Retourner en haut</button>
                 </div>
             </div>
         );

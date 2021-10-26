@@ -7,6 +7,14 @@ class About extends Component {
     }
 
     render() {
+
+        const scrollToTop = () =>{
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        };
+
         return (
             <div className="content">
                 <div>
@@ -91,6 +99,10 @@ class About extends Component {
                         <Link to="/Activities">
                             Découvrez nos services
                         </Link>
+                    </div>
+
+                    <div className="bottom-button-container">
+                        <button className="bottom-button" onClick={scrollToTop}>Retourner en haut</button>
                     </div>
                 </div>
 
