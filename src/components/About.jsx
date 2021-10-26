@@ -1,4 +1,4 @@
-import React, {Component, useEffect} from 'react';
+import React, {Component} from 'react';
 import {Link} from "react-router-dom";
 
 class About extends Component {
@@ -101,8 +101,8 @@ class About extends Component {
                         </Link>
                     </div>
 
-                    <div>
-                        <button onClick={scrollToTop}>Return to top</button>
+                    <div className="bottom-button-container">
+                        <button className="bottom-button" onClick={scrollToTop}>Retourner en haut</button>
                     </div>
                 </div>
 
