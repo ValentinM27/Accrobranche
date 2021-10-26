@@ -16,11 +16,11 @@ class Confidential extends Component {
                     <h2 id="titreIntro">Introduction :</h2>
 
                     <p>
-                        Dans le cadre d'une utilisation commerciale,Accro'batie et son partenaire informatique Jakova Inc. sont
-                        amené à collecter et traiter des données sur votre personne.
+                        Dans le cadre d'une utilisation commerciale, Accro'batie et son partenaire informatique Jakova Inc. sont
+                        amenés à collecter et traiter des données sur votre personne.
                         Ces dernières sont dites "données personnelles". Notre groupe est impliqué dans la protection
                         de ces données ainsi que dans le respect de leur intégrité, le tout dans le but d'une finalité précise.<br />
-                        Nous utilisons ces données afin d'établir différentes statistiques telles que la fréquentation et les parcours
+                        Nous utilisons ces données afin d'établir différentes statistiques telles que la fréquentation et les parcours,
                         les services les plus demandés ainsi que pour vous recontacter à la suite de vos demandes et réservations.
                     </p>
 
@@ -28,28 +28,28 @@ class Confidential extends Component {
 
                     <ul>
                         <li>Données transmises directement :<br />
-                            Données que vous nous transmettez directement, via les formulaires d'inscriptions,
+                            Données que vous nous transmettez directement via les formulaires d'inscription
                             dans les publications ou encore dans les formulaires de contact.
                         </li>
                         <li>Les données collectées automatiquement :<br />
-                            Notre site ne récolte aucunes données en dehors de celles que vous nous transmettez.
-                            Nous n'utilisons ni cookies ni traitement issue de Google Analytics.
+                            Notre site ne récolte aucune donnée en dehors de celles que vous nous transmetterez.
+                            Nous n'utilisons ni cookies, ni traitement issu de Google Analytics.
                         </li>
                     </ul>
 
                     <h2>Utilisation des données :</h2>
 
                     <p>
-                        Les données récoltées nous permettent de déduire qui à formulé des demandes via notre site. De manière à  pouvoir
+                        Les données récoltées nous permettent de déduire qui a formulé des demandes via notre site de manière à pouvoir
                         facilement vous contacter pour donner suite à vos demandes.
-                        Ces données récoltées par notre groupe ne seront en aucun cas cédées à des tiers ni utilisées
-                        à d'autres fins que celles détaillées ci-dessus.
+                        Ces données récoltées par notre groupe ne seront en aucun cas cédées à des tiers, ni utilisées
+                        à d'autres utilisations que celles détaillées ci-dessus.
                     </p>
 
                     <h2>Base légale :</h2>
 
                     <p>
-                        Toutes donnée personnelle est collectée après l'expression explicite du consentement de l'utilisateur
+                        Toute donnée personnelle est collectée après l'expression explicite du consentement de l'utilisateur
                         via une case à cocher présente dans tous nos formulaires.
                     </p>
 
@@ -57,7 +57,7 @@ class Confidential extends Component {
 
                     <p>
                         Les données sont sauvegardées 3 ans après la dernière connexion. Un utilisateur peut demander à regarder ses informations
-                        ou en demander la suppresion (droit à l'oublit).
+                        ou en demander la suppresion (droit à l'oubli).
                     </p>
 
                     <h2>Cookies :</h2>

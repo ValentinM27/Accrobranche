@@ -25,7 +25,7 @@ class Legal extends Component {
                     <h2>Edition du site :</h2>
 
                     <p>
-                        Le site Accorbatie.fr est édité par le groupe de Jakova Inc. Entreprise de développement informatique.<br />
+                        Le site Accrobatie.fr est édité par le groupe de Jakova Inc. Entreprise de développement informatique.<br />
                         Pour contacter Jakova Inc. cliquez <a href="https://valentinmarguerie.fr" target="_blank" rel="noreferrer">ici</a>
                     </p>
 
@@ -46,7 +46,7 @@ class Legal extends Component {
                         <h2>Hébergeur :</h2>
 
                         <p>
-                            L'hébergement du site est opérée par  <a
+                            L'hébergement du site est opéré par  <a
                             href="https://valentinm27.github.io/Accrobranche/#/">GitHub</a><br />
                             Le stockage des données personnelles des utilisateurs est exclusivement réalisé sur ces serveurs.
                         </p>

@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import listPass from "../Helpers/listPass";
+import listPassBis from "../Helpers/listPassBis";
 
 class Activities extends Component {
     componentDidMount() {
@@ -20,11 +21,19 @@ class Activities extends Component {
                 <h1>Nos Services et Activités</h1>
 
                 <div className="pass-container">
-                    <h2>Nos Pass</h2>
+                    <h2>Nos Pass sport</h2>
 
                     {listPass.map((pass) =>(
                         <div>
-                            <h3 key={pass.id}>{pass.name}</h3>
+                            <h3 className="title-pass" key={pass.id}>{pass.name}</h3>
+                            <p>{pass.description}</p>
+                        </div>
+                    ))}
+
+                    <h2>Nos pass avec options</h2>
+                    {listPassBis.map((pass)=>(
+                        <div>
+                            <h3 className="title-pass" key={pass.id}>{pass.name}</h3>
                             <p>{pass.description}</p>
                         </div>
                     ))}
@@ -87,7 +96,7 @@ class Activities extends Component {
 
                     <h2>Nos cabanes</h2>
                     <p>
-                        Vous souhaitez rester pour profiter tout nos services et parcours, pas de problèmes, passez une nuit (ou plusieurs) en hauteur !<br />
+                        Vous souhaitez rester pour profiter tout nos services et parcours, pas de problème, passez une nuit (ou plusieurs) en hauteur !<br />
                         <a href="https://drive.google.com/file/d/1pfvBy0xBMc8yYsDVYUCMthw1NFhYz9ah/view?usp=sharing" rel="noreferrer" target="_blank">Cliquez pour voir nos offres cabanes</a>
                     </p>
 

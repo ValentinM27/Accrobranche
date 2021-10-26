@@ -12,7 +12,7 @@ class Routes extends Component {
                 <h1>Nos parcours</h1>
 
                 <p>Fort d'une grande expérience, nous avons développé 5 parcours de niveaux différents, <br />
-                    permettant à petits et grand de venir relever le défi Accro'batie 🔥</p>
+                    permettant à petits et grands de venir relever le défi Accro'batie 🔥</p>
 
                 <div className="route-container">
 
